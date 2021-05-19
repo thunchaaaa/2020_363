@@ -13,17 +13,37 @@
   <body>
       <h1>Hello, world!</h1>
       <div class="container">
-          <div class="row justify-content-start">
+          <div class="row">
               <div class="col-3">first coiumn</div>
-              <div class="col-3 offset-2">คอลัมป์ที่สอง</div>
-              <div class="col-4">world</div>
+              <div class="col-3 offset-3">
+                 <div class="row">
+                     <div class="col">sub 1</div>
+                     <div class="col">sub 2</div>
+                     <div class="col-7">sub 3</div>
+                 </div>
           </div>
-        <div class="row justify-content-between">
-            <div class="col-3 offset-2">first column</div>
+        <div class="row justify-content-around">
+            <div class="col-3 offset-2">
+                <div class="row">
+                    <div class="col-5">
+                        a
+                    </div>
+                    <div class="col-5">
+                        b
+                    </div>
+                    <div class="col-5">
+                        c
+                    </div>
+                </div>
         </div>
-        <div class="row justify-content-start">
-            <div class="col-3 offset-1">first column</div>
-            <div class="col-3 offset-3">คอลัมป์ที่สอง</div>
+        <div class="col-3 offset-2">
+            <div class="row justify-content-end">
+                <div class="col-2">ก</div>
+                <div class="col-3">ข</div>
+
+            </div>
+        </div>
+        
         </div>
       </div>
       
